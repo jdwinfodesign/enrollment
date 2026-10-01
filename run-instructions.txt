@@ -1,0 +1,50 @@
+HOW TO LOAD THE BUNDLE AND BUILD THE SBC REPORTS (PowerShell)
+
+Run all commands from the folder that holds hapi-fhir-transaction-bundle.json
+and build_sbc_report.py.
+
+1. START HAPI
+   Start Docker Desktop and the HAPI FHIR container. Wait until this
+   returns JSON (not an error):
+
+   curl.exe -s "http://localhost:8080/fhir/metadata" -o NUL
+
+2. LOAD THE BUNDLE (33 resources, safe to repeat)
+
+   curl.exe -X POST "http://localhost:8080/fhir" -H "Content-Type: application/fhir+json" -H "Accept: application/fhir+json" --data-binary "@hapi-fhir-transaction-bundle.json" -o bundle-response.json
+
+   Note: use curl.exe, not curl. In PowerShell, plain curl is an alias
+   for Invoke-WebRequest and the flags will fail.
+
+3. CHECK THE LOAD
+   Expect 33 entries, all "200 OK":
+
+   (Get-Content bundle-response.json -Raw | ConvertFrom-Json).entry.response.status | Group-Object
+
+   First load of a clean database shows "201 Created".
+   A repeat load shows "200 OK" with SUCCESSFUL_UPDATE_NO_CHANGE.
+
+4. SPOT-CHECK THE DOLLAR FIELDS
+   No "currency" anywhere in the bundle (expect Count 0):
+
+   Select-String -Path hapi-fhir-transaction-bundle.json -Pattern '"currency"' | Measure-Object
+
+   "unit": "USD" appears 90 times (expect Count 90):
+
+   Select-String -Path hapi-fhir-transaction-bundle.json -Pattern '"unit"\s*:\s*"USD"' | Measure-Object
+
+5. BUILD THE REPORTS
+   python build_sbc_report.py
+
+   Writes one sbc-report-<patient id>.json per employee into .\reports
+   (six files). To pick another server or folder:
+
+   python build_sbc_report.py --base http://localhost:8080/fhir --out .\reports
+
+6. TROUBLESHOOTING
+   - "connection refused": HAPI is not up yet. Wait and retry step 1.
+   - Status other than 200/201: open bundle-response.json and read the
+     OperationOutcome.
+   - Reports show no dollar amounts: the loaded data still has "currency"
+     on Quantity. Reload the current bundle (step 2).
+   - Generated timestamps differ on every run. That is expected.

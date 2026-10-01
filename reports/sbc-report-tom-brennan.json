@@ -1,0 +1,639 @@
+{
+  "employee": {
+    "id": "tom-brennan",
+    "name": "Tom Brennan",
+    "gender": "male",
+    "birth_date": "1965-02-14"
+  },
+  "coverages": [
+    {
+      "category": "medical",
+      "subscriber_id": "SUB-522017744",
+      "group_number": "GRP-FL-2001",
+      "employer": "Gulfline Marine Supply",
+      "state": "FL",
+      "insurer": "Alderwood Health Plans",
+      "plan_hios_id": "99101FL0020002",
+      "plan_name": "Alderwood Coastal HMO Bronze",
+      "effective_date": "2026-01-01",
+      "sbc_applicable": true
+    }
+  ],
+  "plans": {
+    "99101FL0020002": {
+      "name": "Alderwood Coastal HMO Bronze",
+      "hios_id": "99101FL0020002",
+      "state": "FL",
+      "plan_type": "HMO",
+      "period": {
+        "start": "2026-01-01",
+        "end": "2026-12-31"
+      },
+      "insurer": "Alderwood Health Plans",
+      "important_questions": [
+        {
+          "category": "overall",
+          "label": "Overall plan-level deductible / out-of-pocket limit",
+          "in_network": [
+            {
+              "type": "Deductible",
+              "amount": "$7,000"
+            },
+            {
+              "type": "Maximum out-of-pocket",
+              "amount": "$9,200"
+            }
+          ],
+          "out_of_network": [],
+          "requirement": "Individual amounts shown; family amounts are double. Referral required to see a specialist. This plan does not cover out-of-network care, except emergency services."
+        }
+      ],
+      "common_medical_events": [
+        {
+          "category": "primary-care-visit",
+          "label": "Primary care visit",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "specialist-visit",
+          "label": "Specialist visit",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "preventive-care",
+          "label": "Preventive care / screening / immunization",
+          "in_network": [
+            {
+              "type": "Copay",
+              "amount": "$0"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "diagnostic-test",
+          "label": "Diagnostic test (x-ray, blood work)",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "imaging",
+          "label": "Imaging (CT/PET/MRI)",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "rx-generic",
+          "label": "Generic drugs (Tier 1)",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "rx-preferred-brand",
+          "label": "Preferred brand drugs (Tier 2)",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "rx-nonpreferred-brand",
+          "label": "Non-preferred brand drugs (Tier 3)",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "rx-specialty",
+          "label": "Specialty drugs (Tier 4)",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "outpatient-surgery-facility",
+          "label": "Outpatient surgery, facility fee",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "requirement": "Preauthorization required; benefits may be reduced by 50% if not obtained.",
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "outpatient-surgery-professional",
+          "label": "Outpatient surgery, physician/surgeon fee",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "emergency-room",
+          "label": "Emergency room care",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "covered"
+          }
+        },
+        {
+          "category": "ambulance",
+          "label": "Emergency medical transportation",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "covered"
+          }
+        },
+        {
+          "category": "urgent-care",
+          "label": "Urgent care",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "inpatient-facility",
+          "label": "Hospital stay, facility fee",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "requirement": "Preauthorization required; benefits may be reduced by 50% if not obtained.",
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "inpatient-professional",
+          "label": "Hospital stay, physician/surgeon fee",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "behavioral-health-outpatient",
+          "label": "Mental/behavioral health, outpatient services",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "behavioral-health-inpatient",
+          "label": "Mental/behavioral health, inpatient services",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "maternity-office",
+          "label": "Maternity, office visits",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "maternity-delivery-professional",
+          "label": "Maternity, childbirth/delivery professional services",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "maternity-delivery-facility",
+          "label": "Maternity, childbirth/delivery facility services",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "home-health",
+          "label": "Home health care",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "limits": [
+            {
+              "type": "Visits per year",
+              "value": 60
+            }
+          ],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "rehabilitation",
+          "label": "Rehabilitation / habilitation services",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "limits": [
+            {
+              "type": "Visits per year",
+              "value": 60
+            }
+          ],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "skilled-nursing",
+          "label": "Skilled nursing care",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "limits": [
+            {
+              "type": "Days per year",
+              "value": 60
+            }
+          ],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "durable-medical-equipment",
+          "label": "Durable medical equipment",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "hospice",
+          "label": "Hospice services",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "requirement": "Preauthorization required; benefits may be reduced by 50% if not obtained.",
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "pediatric-vision-exam",
+          "label": "Children's eye exam",
+          "in_network": [
+            {
+              "type": "Coinsurance",
+              "amount": "40%"
+            }
+          ],
+          "out_of_network": [],
+          "limits": [
+            {
+              "type": "Visits per year",
+              "value": 1
+            }
+          ],
+          "network_coverage": {
+            "in_network": "covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "pediatric-vision-hardware",
+          "label": "Children's glasses",
+          "in_network": [],
+          "out_of_network": [],
+          "requirement": "Not covered under this plan.",
+          "limits": [
+            {
+              "type": "Visits per year",
+              "value": 1
+            }
+          ],
+          "network_coverage": {
+            "in_network": "not-covered",
+            "out_of_network": "not-covered"
+          }
+        },
+        {
+          "category": "pediatric-dental",
+          "label": "Children's dental check-up",
+          "in_network": [],
+          "out_of_network": [],
+          "requirement": "Not covered under this plan.",
+          "limits": [
+            {
+              "type": "Visits per year",
+              "value": 2
+            }
+          ],
+          "network_coverage": {
+            "in_network": "not-covered",
+            "out_of_network": "not-covered"
+          }
+        }
+      ],
+      "excluded_services": {
+        "status": "tbd",
+        "source": "policy_info",
+        "note": "Not yet modeled in the FHIR store — see scenario bible Parked Decisions (2026-09-26)."
+      },
+      "other_covered_services": {
+        "status": "tbd",
+        "source": "policy_info",
+        "note": "Not yet modeled in the FHIR store."
+      },
+      "coverage_examples": {
+        "status": "approximate",
+        "source": "policy_info",
+        "note": "Illustrative fictive figures only, not calculator-grade — flag for talking points if asked how derived. Not currently stored in the FHIR Bundle."
+      }
+    }
+  },
+  "_report_meta": {
+    "generated_at": "2026-10-01T21:54:51+00:00",
+    "report_version": "2",
+    "generated_from": "HAPI FHIR server (database report only — no regulatory/DITA content included)",
+    "gaps": [
+      {
+        "field": "plan[99101FL0020002].excluded_services",
+        "sbc_slot": "Services Your Plan Generally Does NOT Cover",
+        "source": "policy_info",
+        "status": "tbd"
+      },
+      {
+        "field": "plan[99101FL0020002].other_covered_services",
+        "sbc_slot": "Other Covered Services",
+        "source": "policy_info",
+        "status": "tbd"
+      },
+      {
+        "field": "plan[99101FL0020002].coverage_examples",
+        "sbc_slot": "Coverage Examples (three sample events)",
+        "source": "policy_info",
+        "status": "approximate"
+      },
+      {
+        "field": "plan[99101FL0020002].common_medical_events[*].deductible_applies",
+        "sbc_slot": "What You Will Pay cells (deductible applies / does not apply)",
+        "source": "none",
+        "status": "no-source",
+        "note": "The CMS sample states this per service. The report carries type and amount only."
+      },
+      {
+        "field": "plan[99101FL0020002].important_questions[*].services_covered_before_deductible",
+        "sbc_slot": "Are there services covered before you meet your deductible?",
+        "source": "none",
+        "status": "no-source"
+      },
+      {
+        "field": "plan[99101FL0020002].important_questions[*].out_of_pocket_exclusions",
+        "sbc_slot": "What is not included in the out-of-pocket limit?",
+        "source": "none",
+        "status": "no-source"
+      },
+      {
+        "field": "plan[99101FL0020002].contact",
+        "sbc_slot": "Plan contact, Glossary contact and network directory website/phone",
+        "source": "none",
+        "status": "no-source"
+      },
+      {
+        "field": "coverages[*].coverage_tier",
+        "sbc_slot": "Coverage for: (Individual | Family)",
+        "source": "none",
+        "status": "no-source",
+        "note": "Employee-only per scenario bible axiom 4; not carried in the report."
+      },
+      {
+        "field": "plan[99101FL0020002].minimum_essential_coverage / minimum_value",
+        "sbc_slot": "Does this plan provide Minimum Essential Coverage? / meet Minimum Value Standards?",
+        "source": "none",
+        "status": "no-source"
+      },
+      {
+        "field": "plan[99101FL0020002].level / market_segment",
+        "sbc_slot": "(profiling axes for DITA conditional processing)",
+        "source": "scenario-bible",
+        "status": "no-source",
+        "note": "Defined in the scenario bible; not present in the FHIR store or this report."
+      },
+      {
+        "field": "plan[99101FL0020002].common_medical_events[rehabilitation]",
+        "sbc_slot": "Rehabilitation services and Habilitation services (two rows)",
+        "source": "policy_info",
+        "status": "mismatch",
+        "note": "If the store has one merged row, the CMS template still lists two."
+      }
+    ],
+    "content_dependencies": [
+      "Your Rights to Continue Coverage: state, HHS or DOL agency contacts (varies by state; key on coverages[].state).",
+      "Your Grievance and Appeals Rights: contact information (varies by state).",
+      "Language Access Services: telephone numbers.",
+      "Why This Matters: standardized CMS text (static)."
+    ],
+    "notes": [
+      "All names, plans, identifiers and figures are fictive.",
+      "HIOS Plan ID is a pointer to an authoritative external source, not a claim about real-world issuance (decision 2026-09-28).",
+      "In common_medical_events an empty in_network or out_of_network array means not covered; see network_coverage. In important_questions an empty array means no separate value, which is not the same thing.",
+      "sbc_applicable is false for dental and vision on the assumption that stand-alone dental and vision coverage is outside the SBC requirement. Confirm before relying on it.",
+      "State is taken from Patient.address, else the group number (GRP-<ST>-nnnn), else the HIOS ID.",
+      "plan[99101FL0020002]: HMO. Out-of-network care is not covered except emergency services.",
+      "plan[99101FL0020002]: pediatric-vision-hardware is not covered but still carries a limit in the source data. Retained as-is pending review.",
+      "plan[99101FL0020002]: pediatric-dental is not covered but still carries a limit in the source data. Retained as-is pending review."
+    ]
+  }
+}

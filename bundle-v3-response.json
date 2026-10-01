@@ -1,0 +1,703 @@
+{
+  "resourceType": "Bundle",
+  "id": "4806a504-6684-4a45-bdb5-4497bdc1b7ed",
+  "type": "transaction-response",
+  "link": [ {
+    "relation": "self",
+    "url": "http://localhost:8080/fhir"
+  } ],
+  "entry": [ {
+    "response": {
+      "status": "200 OK",
+      "location": "CodeSystem/alderwood-demo-benefit-category/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"CodeSystem/alderwood-demo-benefit-category/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "CodeSystem/alderwood-demo-cost-qualifier/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"CodeSystem/alderwood-demo-cost-qualifier/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Organization/alderwood/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Organization/alderwood/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Organization/harbor-finch/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Organization/harbor-finch/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Organization/gulfline/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Organization/gulfline/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Organization/whitfield/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Organization/whitfield/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Organization/whitfield-tx/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Organization/whitfield-tx/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Organization/whitfield-fl/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Organization/whitfield-fl/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "InsurancePlan/harborline-ppo-gold/_history/2",
+      "etag": "2",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"InsurancePlan/harborline-ppo-gold/_history/2\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "InsurancePlan/harborline-ppo-silver/_history/2",
+      "etag": "2",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"InsurancePlan/harborline-ppo-silver/_history/2\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "InsurancePlan/coastal-hmo-gold/_history/2",
+      "etag": "2",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"InsurancePlan/coastal-hmo-gold/_history/2\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "InsurancePlan/coastal-hmo-bronze/_history/2",
+      "etag": "2",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"InsurancePlan/coastal-hmo-bronze/_history/2\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "InsurancePlan/crestline-ppo-1000-tx/_history/2",
+      "etag": "2",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"InsurancePlan/crestline-ppo-1000-tx/_history/2\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "InsurancePlan/crestline-ppo-1000-fl/_history/2",
+      "etag": "2",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"InsurancePlan/crestline-ppo-1000-fl/_history/2\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Patient/maya-okafor/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Patient/maya-okafor/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Patient/daniel-reyes/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Patient/daniel-reyes/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Patient/priya-nair/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Patient/priya-nair/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Patient/tom-brennan/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Patient/tom-brennan/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Patient/lucia-herrera/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Patient/lucia-herrera/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Patient/kevin-walsh/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Patient/kevin-walsh/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Coverage/maya-okafor-medical/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Coverage/maya-okafor-medical/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Coverage/maya-okafor-dental/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Coverage/maya-okafor-dental/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Coverage/maya-okafor-vision/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Coverage/maya-okafor-vision/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Coverage/daniel-reyes-medical/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Coverage/daniel-reyes-medical/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Coverage/daniel-reyes-vision/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Coverage/daniel-reyes-vision/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Coverage/priya-nair-medical/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Coverage/priya-nair-medical/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Coverage/priya-nair-dental/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Coverage/priya-nair-dental/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Coverage/tom-brennan-medical/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Coverage/tom-brennan-medical/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Coverage/lucia-herrera-medical/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Coverage/lucia-herrera-medical/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Coverage/lucia-herrera-dental/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Coverage/lucia-herrera-dental/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Coverage/lucia-herrera-vision/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Coverage/lucia-herrera-vision/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Coverage/kevin-walsh-medical/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Coverage/kevin-walsh-medical/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  }, {
+    "response": {
+      "status": "200 OK",
+      "location": "Coverage/kevin-walsh-dental/_history/1",
+      "etag": "1",
+      "outcome": {
+        "resourceType": "OperationOutcome",
+        "issue": [ {
+          "severity": "information",
+          "code": "informational",
+          "details": {
+            "coding": [ {
+              "system": "https://hapifhir.io/fhir/CodeSystem/hapi-fhir-storage-response-code",
+              "code": "SUCCESSFUL_UPDATE_NO_CHANGE",
+              "display": "Update succeeded: No changes were detected so no action was taken."
+            } ]
+          },
+          "diagnostics": "Successfully updated resource \"Coverage/kevin-walsh-dental/_history/1\" with no changes detected."
+        } ]
+      }
+    }
+  } ]
+}
